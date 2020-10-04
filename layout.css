@@ -12,10 +12,8 @@
 }
 
 header {
-    display: flex;
-    height: 100px;
+    display: grid;
     font-size: 4rem;
-    text-align: flex-end;
     justify-content: center;
     padding: 1rem;
 }

@@ -37,7 +37,7 @@ header {
     background-color: var(--color-one);
     border-radius: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font
+    font-size-adjust: inherit;
 }
 
 nav ul {
