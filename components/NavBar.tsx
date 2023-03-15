@@ -21,4 +21,11 @@ function NavBar(props: navBarProps){
 	)
 }
 
+type navBarProps = {
+	currentPage: string,
+};
+
+const defaultNavBarProps = { currentPage: "HOME" }
+NavBar.defaultProps = defaultNavBarProps;
+
 export default NavBar;
