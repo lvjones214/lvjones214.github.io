@@ -15,7 +15,7 @@ export default function Home() {
 						<div className='flex flex-row w-1/3'>
 							<img
 							src={'/LaurenHeadShotSmall.jpg'}
-							width='300'
+							width='350'
 							height='500'
 							className='p-8'
 							alt='Lauren head shot'
