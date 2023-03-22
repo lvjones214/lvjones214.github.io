@@ -51,3 +51,15 @@ a {
    font-weight: '300';
    src: url('../public/static/TenorSans-Regular.ttf');
 }
+
+@font-face {
+   font-family: 'Belleza';
+   font-weight: '300';
+   src: url('../public/static/Belleza-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Jakarta';
+   font-weight: '300';
+   src: url('../public/static/PlusJakartaSans-VariableFont_wght.ttf');
+}

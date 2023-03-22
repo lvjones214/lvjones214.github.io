@@ -1,12 +1,20 @@
 import NavBar from '@/components/NavBar';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 function About() {
   return(
 		<>
-			<section className='flex '>
-				<div>
-					<h1 className='flex flex-row font-header text-3xl py-3 text-center'> About Me </h1>
-					<p className='font-body text-lg'>
+		<main>
+			<div>
+				<Header/>
+				<NavBar currentPage='ABOUT' bg-color='bg-gray-500'/>
+			</div>
+			<h1 className='flex justify-center font-headline text-3xl py-3 text-center'> About Me </h1>
+
+			<section className='flex'>
+				<div className='flex flex-col w-1/2'>
+					<p className='flex flex-row font-main text-lg p-6'>
 					I am a full-stack developer and graduate of the We Can Code IT bootcamp. I have 
 					worked for two years in this new career, and I am very excited to be emerging in this new field
 					that I have learned I truly enjoy. In my first job as a developer I learned Ruby on Rails and 
@@ -15,15 +23,24 @@ function About() {
 					different, even if in a language with which I am familiar. Every engineer I work with has 
 					something to teach me.
 					</p>
-					<p className='font-body text-lg pt-4'>
+					<p className='flex flex-row font-main text-lg p-6'>
 					Prior to becoming a software engineer I spent my career as an astronomer in higher education and
-					dabbled a bit in the k-12 education and policy space. Like many, the pandemic has caused me to 
+					spent several years in the k-12 education and policy space. Like many, the pandemic has caused me to 
 					redirect my talents and seek a new path for myself. Software development leverages my love of 
 					both data and puzzles. Five years from now, I hope to be established in this new field and
 					finding a way to weave into my career my passion for teaching and learning.
 					</p>
 				</div>
+				<div className='flex flex-col w-1/2'>
+					<img
+					src={'/LaurenThinking.jpg'}
+					className='flex flex-row'
+					alt='Lauren HDF'
+					/>
+				</div>
 			</section>
+			</main>
+			<Footer/>
 		</>
 	)
 }

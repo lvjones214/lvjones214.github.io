@@ -18,6 +18,8 @@ module.exports = {
           caveat: ['Caveat'],
           body: ['TenorSans'],
           script: ['DancingScript'],
+          headline: ['Belleza'],
+          main: ['Jakarta'],
         },
         colors:{
           primary: '#463233',
