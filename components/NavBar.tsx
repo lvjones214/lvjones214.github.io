@@ -18,8 +18,8 @@ function NavBar(props: navBarProps){
 				<li className={`${props.currentPage === 'RESUME' ? 'active-page' : null}`}>
 					<Link href='/Resume' className='flex w-20 pr-6 justify-between'>Resume</Link>
 				</li>
-				<li className={`${props.currentPage === 'PROJECTS' ? 'active-page' : null}`}>
-					<Link href='/Projects' className='flex w-20 pr-6 justify-between'>Projects</Link>
+				<li className={`${props.currentPage === 'PORTFOLIO' ? 'active-page' : null}`}>
+					<Link href='/Portfolio' className='flex w-20 pr-6 justify-between'>Portfolio</Link>
 				</li>
 				<li className={`${props.currentPage === 'ABOUT' ? 'active-page' : null}`}>
 					<Link href='/About' className='flex w-20 pr-6 justify-between'>About</Link>

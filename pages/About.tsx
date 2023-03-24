@@ -18,7 +18,7 @@ function About() {
 					I am a full-stack developer and graduate of the We Can Code IT bootcamp. I have 
 					worked for two years in this new career, and I am very excited to be emerging in this new field
 					that I have learned I truly enjoy. In my first job as a developer I learned Ruby on Rails and 
-					JSReact. In my second job as a developer continued to code in Ruby and JS, but also learned
+					ReactJS. In my second job as a developer continued to code in Ruby and JS, but also learned
 					Kotlin. I see each job opportunity as an opportunity to learn new things. Every code base is
 					different, even if in a language with which I am familiar. Every engineer I work with has 
 					something to teach me.
