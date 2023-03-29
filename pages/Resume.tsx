@@ -19,6 +19,7 @@ function Resume() {
 				<p className='font-main ml-8'>I am an experienced full-stack scientist and software engineer 
 				with project management expertise, leadership, management and problem-solving skills. I am 
 				looking for an opportunity to continue to grow and develop in the field of software development.			
+				</p>
 			</div>
 			<div className='m-8 p-4 bg-slate-200'>
 				<h1 className='font-headline text-2xl ml-8 font-bold'>Core Competencies</h1>
