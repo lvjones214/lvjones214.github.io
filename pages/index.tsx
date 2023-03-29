@@ -31,10 +31,10 @@ export default function Home() {
 							</p>
 							<h1 className='font-headline text-3xl text-center'>Core Competencies</h1>
 							<p className='font-body text-xl p-2'>
-								<b>Testing</b> - I love writing tests to demonstrate that my code works: trust, but verify is my motto.<br/>
-								<b>Specifications</b> - I like to ask questions so that I get the work done right the first time.<br/>
-								<b>Communication</b> - I like to meet people where they are to understand what they want.<br/>
-								<b>Anticipation</b> - I have good instincts when it comes to anticipating unintended consequences.<br/>
+								<b>Testing</b> – I know how to write unit tests, integration tests and end-to-end tests.<br/>
+								<b>Research</b> - I know how to research and can apply new skills as I learn them.<br/>
+								<b>Clarity</b> - I communicate and write code in a clear and direct way.<br/>
+								<b>Creativity</b> - I know how to develop creative solutions that are simple and straightforward.<br/>
 							</p>
 						</div>
 					</li>
