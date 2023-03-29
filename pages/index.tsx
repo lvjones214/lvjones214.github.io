@@ -25,16 +25,16 @@ export default function Home() {
 						<div className='flex flex-col sm:w-2/3 w-full p-6'>
 							<h1 className='font-headline text-3xl text-center'>About Me</h1>
 							<p className='font-body text-xl p-2'>
-								I am a full-stack software engineer with a background in education and leadership. 
+								I am a full-stack software engineer with a background in science, education and leadership. 
 								I love problem-solving and am a deep thinker. I am easy to get along with and communicate
 								clearly to both other software engineers and colleagues who are  not engineers.
 							</p>
 							<h1 className='font-headline text-3xl text-center'>Core Competencies</h1>
 							<p className='font-body text-xl p-2'>
 								<b>Testing</b> – I know how to write unit tests, integration tests and end-to-end tests.<br/>
-								<b>Research</b> - I know how to research and can apply new skills as I learn them.<br/>
-								<b>Clarity</b> - I communicate and write code in a clear and direct way.<br/>
-								<b>Creativity</b> - I know how to develop creative solutions that are simple and straightforward.<br/>
+								<b>Research</b> – I know how to research and can apply new skills as I learn them.<br/>
+								<b>Clarity</b> – I communicate and write code in a clear and direct way.<br/>
+								<b>Creativity</b> – I know how to develop creative solutions that are simple and straightforward.<br/>
 							</p>
 						</div>
 					</li>
